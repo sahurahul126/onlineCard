@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: orange;
+    font-family: sans-serif;
+    overflow-x: hidden; 
+}
+.top-nav-bar{
+    height: 57px;
+    top:0;
+    position: sticky;
+    background-color: #000000;
+    margin-bottom: 20px;
+    border-bottom: 3 px solid orange;
+    z-index: 2;
+}
+.form-control{
+    margin-top: 9px;
+    margin-left: 30px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: none;
+}
+.input-group-text{
+    margin-top: 9px;
+    
+    
+    box-shadow: none;
+    cursor: pointer;
+    background-color: orange;
+
+}
+.logo{
+    background-color:#fff ;
+    height: 40px;
+    margin:5px 10px;
+}
+.search-box{
+    display: inline-flex;
+    width: 80%;
+}
+.menu-bar{
+    
+    width: 18%;
+    float: right;
+}
+.menu-bar ul{
+    display: inline-flex;
+    float:right;
+}
+.menu-bar ul li{
+    border-left: 1px solid;
+    list-style-type: none;
+    padding: 4px 25px;
+    text-align: center;
+    background-color: #000000;
+    cursor: pointer;
+}
+.menu-bar ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.fa-shopping-cart{
+    margin-right: 5px;
+}
+.card-img-top{
+    height: 200px;
+}
+.img-size{
+    height: 350px;
+}
+.main-container{
+    margin-top: 50px;
+}
+.second{
+    margin-top: 25px;
+}
+.card-title{
+    font-weight: bold;
+    cursor: pointer;
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:active {
+      color: #000000;
+    text-decoration: none;
+  }
+@media(max-width: 1180px){
+
+.search-box{
+    
+    width: 70%;
+}
+@media(max-width: 770px){
+
+    .search-box{
+        
+        width: 60%;
+    }		
+}
+@media(max-width: 500px){
+
+    .search-box{
+        
+        width: 55%;
+ 
+    }
+    .menu-bar ul li{
+        padding: 4px 10px ;
+    }	
+}
